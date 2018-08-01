@@ -1,0 +1,1 @@
+C:\dev\JobDeleteExample\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

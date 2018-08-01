@@ -1,0 +1,34 @@
+services:
+  jobdeleteexample:
+    build:
+      context: C:\dev\JobDeleteExample
+      dockerfile: JobDeleteExample/Dockerfile
+      target: base
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44384'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: jobdeleteexample:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  bin/Debug/netcoreapp2.1/JobDeleteExample.dll'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/bash -c "if PID=$$(pidof
+        -x dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 64055
+      target: 80
+    - published: 44384
+      target: 443
+    volumes:
+    - /c/dev/JobDeleteExample/JobDeleteExample:/app:rw
+    - /c/Users/SauerCh/vsdbg/vs2017u5:/remote_debugger:ro
+    - /c/Users/SauerCh/AppData/Roaming/ASP.NET/Https:/root/.aspnet/https:ro
+    - /c/Users/SauerCh/AppData/Roaming/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+    - /c/Program Files/dotnet/sdk/NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - /c/Users/SauerCh/.nuget/packages:/root/.nuget/packages:ro
+version: '3.4'

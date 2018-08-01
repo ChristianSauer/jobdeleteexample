@@ -1,0 +1,15 @@
+C:\dev\JobDeleteExample\JobDeleteExample\bin\Debug\netcoreapp2.1\JobDeleteExample.deps.json
+C:\dev\JobDeleteExample\JobDeleteExample\bin\Debug\netcoreapp2.1\JobDeleteExample.runtimeconfig.json
+C:\dev\JobDeleteExample\JobDeleteExample\bin\Debug\netcoreapp2.1\JobDeleteExample.runtimeconfig.dev.json
+C:\dev\JobDeleteExample\JobDeleteExample\bin\Debug\netcoreapp2.1\JobDeleteExample.dll
+C:\dev\JobDeleteExample\JobDeleteExample\obj\Debug\netcoreapp2.1\JobDeleteExample.csprojAssemblyReference.cache
+C:\dev\JobDeleteExample\JobDeleteExample\obj\Debug\netcoreapp2.1\JobDeleteExample.csproj.CoreCompileInputs.cache
+C:\dev\JobDeleteExample\JobDeleteExample\obj\Debug\netcoreapp2.1\JobDeleteExample.RazorAssemblyInfo.cache
+C:\dev\JobDeleteExample\JobDeleteExample\obj\Debug\netcoreapp2.1\JobDeleteExample.RazorAssemblyInfo.cs
+C:\dev\JobDeleteExample\JobDeleteExample\obj\Debug\netcoreapp2.1\JobDeleteExample.AssemblyInfoInputs.cache
+C:\dev\JobDeleteExample\JobDeleteExample\obj\Debug\netcoreapp2.1\JobDeleteExample.AssemblyInfo.cs
+C:\dev\JobDeleteExample\JobDeleteExample\obj\Debug\netcoreapp2.1\JobDeleteExample.RazorTargetAssemblyInfo.cache
+C:\dev\JobDeleteExample\JobDeleteExample\bin\Debug\netcoreapp2.1\JobDeleteExample.pdb
+C:\dev\JobDeleteExample\JobDeleteExample\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\dev\JobDeleteExample\JobDeleteExample\obj\Debug\netcoreapp2.1\JobDeleteExample.dll
+C:\dev\JobDeleteExample\JobDeleteExample\obj\Debug\netcoreapp2.1\JobDeleteExample.pdb
